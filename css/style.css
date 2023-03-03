@@ -2,7 +2,7 @@
   /* Firefox */
   * {
     scrollbar-width: thin;
-    scrollbar-color: #e23e3e #373cbe;
+    scrollbar-color: rgba(226, 62, 62, 0.76) #373cbe;
   }
 
   /* Chrome, Edge, and Safari */
@@ -237,15 +237,17 @@ header{
     background: rgb(226,62,62);
     background: linear-gradient(0deg, rgba(226,62,62,1) 0%, rgba(88,84,209,0.9514180672268907) 35%, rgba(255,255,255,0) 100%);
     display: inline-block;
-    padding: 60px 10px 40px 10px;;
+    padding: 60px 10px 40px 10px;
     margin: 30px 70px;
-    box-sizing: content-box;
     border-radius: 40px;
     transition: width .2s ease, height .2s ease;
 }
 .main-capacities-card:hover{
     width: 235px;
     height: 235px;
+}
+.main-capacities-card p{
+    float: left;
 }
 .main-capacities img{
     width: 80%;
