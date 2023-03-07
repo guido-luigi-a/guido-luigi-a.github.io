@@ -1,11 +1,11 @@
 <!doctype html>
-<!-- doctype informa ao agente de usuario a versão do html que deve ser renderizada -->
 <html lang="pt-br"> 
     <head>
-        <title>Portfólio GLA v1</title>
+        <title>Portfólio GLA v2</title>
         <meta charset="utf-8">
         <meta name="author" content="Guido Luigi">
-        <meta name="description" content="Portfolio v1"> 
+        <meta name="description" content="Portfolio v2">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,48 +13,49 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/fontawesome-free-6.3.0-web/css/all.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://kit.fontawesome.com/e91a712a1a.css" crossorigin="anonymous">
         
     </head>
     
     <body>
 
         <header class="main-header">
-            <nav class="main-header-nav">
-                <a id="logo" href="#"><code>&lt;/gla&gt;</code></a>
-                <ul class="main-header-links">
+            <nav>
+                <a class="logo" href="#"><code>&lt;/gla&gt;</code></a>
+                <ul>
                     <li><a href="#quem-sou-eu">Quem sou eu?</a></li>
                     <li><a href="#capacidades">Capacidades</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
-            <div class="main-header-division">
-                <div class="main-header-title">
+        </header>
+        
+        <main class="main-content">
+            <section class="section-1">
+                <div class="col-2">
+                    <img src="images/perfil.jpg" alt="Foto de Guido em frente a uma aeronave da Força Aérea.">
+                </div>
+                <div class="col-2 text">
                     <h1>
                     Olá, eu sou<br><strong>Guido Luigi Antonioli</strong>,<br>Desenvolvedor Front-end.
                     </h1>
-                </div>
-                <div class="main-header-pic">
-                    <img src="images/perfil.jpg" alt="Foto de Guido em frente a uma aeronave da Força Aérea.">
-                </div>
-            </div>
-            <div class="main-header-social icons">
-                <a class="main-header-social insta" href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                <a class="main-header-social linkedin" href="https://www.linkedin.com/in/guianton1206/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a class="main-header-social facebook" href="https://www.facebook.com/guidoluigi.antonioli/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-            </div>
             
-        
-        </header>
-        <main class=main-content>
-        
-            <section class="who-am-i" id="quem-sou-eu">
-                <div class="who-am-i-text">
-                    <h2 class="who-am-i-title">
-                    Quem sou eu?
-                    </h2>
+                    <div class="social-media">
+                        <a  href="https://www.instagram.com/guih.25/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a  href="https://www.linkedin.com/in/guianton1206/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a  href="https://www.facebook.com/guidoluigi.antonioli/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+            </section>
+                
+            <section class="section-2" id="quem-sou-eu">
+                <div class="section-2-text col-2">
+                    <h1>
+                        <b>Quem sou eu?</b>
+                    </h1>
                     <p>Sou um estudante de programação web que recém descobriu a paixão pela tecnologia, em especial a área de programação front-end. Militar da reserva, servi à Força Aérea Brasileira por quatro anos, e uso a disciplina e determinação aprendidas nas Forças Armadas para orientar meus estudos e me tornar cada vez mais capaz.</p>
                 </div>
-                <div class="who-am-i-pic">
+                <div class="section-2-images col-2">
                     <img src="images/perfil2.jpg" alt="Foto de Guido a bordo do KC-390">
                     <img src="images/perfil3.jpg" alt="Foto de Guido na cidade do natal, em CampoGrande-MS">
                     <img src="images/perfil4.jpg" alt="Foto de Guido em casa.">
@@ -64,28 +65,28 @@
             
             </section>
             
-            <section class="main-capacities" id="capacidades">
-                <h1>Capacidades</h1>
-                    
-                    <div class="main-capacities-card">
+            <section class="section-3" id="capacidades">
+                <h1><b>Capacidades</b></h1>
+                <div class="cards" >
+                    <div class="card">
                         <img src="images/html5.png" alt="Logotipo do HTML5">
                         <p>Cursos Udemy em HTML5.</p>
                     </div>
                     
-                    <div class="main-capacities-card">
+                    <div class="card">
                         <img src="images/css3.png" alt="Logotipo do CSS3">
                         <p>Cursos Udemy em CSS3.</p>
                     </div>
                     
-                    <div class="main-capacities-card">
+                    <div class="card">
                         <img src="images/java-script.png" alt="Logotipo do JavaScript">
                         <p>Cursos Udemy em JavaScript.</p>
                     </div>
-            
+                </div>
             </section>
-            <section class="main-contact">
-                <h1>Contato</h1>
-                <adress class="main-contact-adress" id="contato">
+            <section class="section-4" id="contato">
+                <h1><b>Contato</b></h1>
+                <adress class="redes">
                     <a href="https://www.linkedin.com/in/guianton1206/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                     <a href="mailto:guidogmaer1@gmail.com"><i class="fa-solid fa-envelope"></i></a>
                     <a href="https://www.instagram.com/guih.25/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
@@ -95,18 +96,18 @@
             
             </section>
         
-        
-        
-        </main>
-        
         <footer class="main-footer">
         
-            <h3 class="main-footer-title">
+            <h3>
             Criado por Guido Luigi Antonioli - 2023
             </h3>
         
         
         </footer>
+        
+        </main>
+        
+        
         
         
         
