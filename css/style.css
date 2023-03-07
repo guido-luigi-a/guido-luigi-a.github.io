@@ -106,7 +106,7 @@ p{
 }
 .main-content{
     position: absolute;
-    top: 260px;
+    top: 175px;
 
 }
 .section-1{
@@ -242,6 +242,9 @@ p{
         top: 2px;
         left: 1em;
     }
+	.main-content{
+		top: 230px;
+	}
     .main-header{
         height: 5em;
     }
@@ -291,6 +294,9 @@ p{
     
 }
 @media screen and (min-width: 62.5em){
+	.main-content{
+		top: 18rem;
+	}
     .main-header{
         background: rgba(0, 0, 0, 0.51);
     }
